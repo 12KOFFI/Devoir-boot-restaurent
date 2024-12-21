@@ -1,0 +1,43 @@
+
+.color-nav{
+    background-color: #ffe8a5;
+}
+
+a:hover{
+    background-color: rgb(228, 96, 30);
+    border-radius: 40px;
+}
+.colorh1 , .colortexte{
+    background-color: rgb(228, 97, 29);
+}
+
+.colorh1{
+    color: white;
+}
+.heros {
+    position: relative;  
+    text-align: center; 
+  }
+
+  .heros h1 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; /* Place le texte horizontalement au milieu */
+    transform: translate(-50%, -50%); /* Centre parfaitement le texte */
+    color: white; /* Rend le texte visible sur l'image */
+    z-index: 2; /* Assure que le texte reste au-dessus des images */
+  }
+  .heros .bouton {
+    position: absolute;
+    top: 62%; 
+    left: 50%; /* Place le texte horizontalement au milieu */
+    transform: translate(-50%, -50%); /* Centre parfaitement le texte */
+    color: white; /* Rend le texte visible sur l'image */
+    z-index: 2; /* Assure que le texte reste au-dessus des images */
+  }
+
+
+.cardfixe{
+  overflow-y: auto; /*permet un defilement */
+  white-space:nowrap;  /*Empeche le texte de passe a la ligne*/
+}
