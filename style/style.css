@@ -4,8 +4,10 @@
 }
 
 a:hover{
-    background-color: rgb(228, 96, 30);
-    border-radius: 40px;
+    background-color: rgb(243, 100, 28);
+    width: 100%;
+   height: auto;
+      
 }
 .colorh1 , .colortexte{
     background-color: rgb(228, 97, 29);
@@ -32,7 +34,7 @@ a:hover{
     top: 62%; 
     left: 50%; /* Place le texte horizontalement au milieu */
     transform: translate(-50%, -50%); /* Centre parfaitement le texte */
-    color: white; /* Rend le texte visible sur l'image */
+    color: #df6621; /* Rend le texte visible sur l'image */
     z-index: 2; /* Assure que le texte reste au-dessus des images */
   }
 
